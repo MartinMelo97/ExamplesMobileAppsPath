@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MiPrimerAplicacion</string>
+    <string name="texto">Hola papu! papu!</string>
+    <string name="placeholder">Escribe tu mensaje papu</string>
+    <string name="buton">Apuchurrame!</string>
+</resources>
