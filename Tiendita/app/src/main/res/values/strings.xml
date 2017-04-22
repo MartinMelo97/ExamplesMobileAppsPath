@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tiendita</string>
+    <string name="action_settings">Settings</string>
+    <string name="Home">FixterTienda</string>
+    <string name="HintColor">Elige un color</string>
+    <string name="HintSize">Elige una talla</string>
+    <string name="HintQuantity">Cantidad:</string>
+    <string name="title_activity_quantity">QuantityActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+</resources>
