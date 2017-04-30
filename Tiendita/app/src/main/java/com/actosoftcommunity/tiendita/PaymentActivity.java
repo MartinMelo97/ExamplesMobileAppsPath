@@ -24,7 +24,7 @@ public class PaymentActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Intent receivingData = getIntent();
-        quantity = receivingData.getIntExtra("quantity",0);
+        quantity = receivingData.getIntExtra("quantity",1);
         color = receivingData.getStringExtra("color");
         size = receivingData.getStringExtra("size");
 
@@ -40,7 +40,7 @@ public class PaymentActivity extends AppCompatActivity {
         TVSize.setText("Talla: "+size);
         TVQuantity.setText("Cantidad: "+ quantity);
         TVUnitPrice.setText("Precio unitario " + precio);
-        TVTotalPrice.setText("TOTAL: " + total);
+        TVTotalPrice.setText(""+total);
         /*Toast.makeText(this, "" + color + size + quantity + precio + total, Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Color: " + color, Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Talla: " + size, Toast.LENGTH_SHORT).show();

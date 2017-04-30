@@ -56,12 +56,7 @@ public class QuantityActivity extends AppCompatActivity {
                     {
                         Toast.makeText(QuantityActivity.this, "Frepo", Toast.LENGTH_SHORT).show();
                     }
-              /*  }
-                catch(Exception e)
-                {
-                    e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "No entro", Toast.LENGTH_LONG).show();
-                }*/
+
 
             }
         });
