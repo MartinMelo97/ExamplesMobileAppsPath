@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="Bienvenida">Bienvenido a mi app!</string>
+    <string name="placeholderNombre">Nombre:</string>
+    <string name="placeholderCorreo">Correo:</string>
+    <string name="BtnEntrar">Ingresar</string>
+</resources>
