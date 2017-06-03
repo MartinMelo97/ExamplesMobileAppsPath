@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         if(!hasCamera())
         {
             video.setEnabled(false);
+            camera.setEnabled(false);
         }
 
         video.setOnClickListener(new View.OnClickListener() {
